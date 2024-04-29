@@ -19,20 +19,48 @@ http://127.0.0.1:8000/redoc (documentation alternative au format [ReDoc](https:/
 Il est également possible de tester l'api directement depuis cette URL.
 
 ## FastAPI library
+Permet d'importer le package fastapi
+```python
 import fastapi
+```
 
-## FastAPI
-
+### FastAPI
+Pour importer le module FastAPI du package fastapi et initialiser l'application
 ```python
 from fastapi import FastAPI
 
 app = FastAPI() 
 ```
 
-## Path
+### Path
+Pour importer le module Path du package fastapi
+Ce module permet d'ajouter des validations et des metadatas au chemin (path) de l'API
 ```python
 from fastapi import Path
 
+@app.get("/get-student/{student_id}")
+def get_student(student_id: int= Path(description="ID de l'etudiant dont vous voulez récupérer les infos") ):
+    return students[student_id]
+
+```
+## Parametres
+### Request Parameter
+Dans la création du endpoint ci-dessus, nous avons utiliser un paramètre de requête. 
+
+Il s'agit d'un paramètre passé dans le chemin de l'url.
+
+```python
+# http://localhost/get-student/1
+@app.get("/get-student/{student_id}")
 ```
 
+### Query Parameter
+On peut également utiliser des paramètres de requêtes qui se trouvent alors à la suite du caractère ? dans le chemin de l'url
+```python
+# http://localhost/get-student?id=1
+@app.get("/get-student) 
+def get-student(id: int):
+    ...
+```
 
+## Pydantic
