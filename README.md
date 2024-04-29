@@ -44,8 +44,8 @@ def get_student(student_id: int= Path(description="ID de l'etudiant dont vous vo
 
 ```
 ## Parametres
-### Request Parameter
-Dans la création du endpoint ci-dessus, nous avons utiliser un paramètre de requête. 
+### Path Parameter
+Dans la création du endpoint ci-dessus, nous avons utiliser un paramètre de chemin
 
 Il s'agit d'un paramètre passé dans le chemin de l'url.
 
@@ -63,4 +63,3 @@ def get-student(id: int):
     ...
 ```
 
-## Pydantic
