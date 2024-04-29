@@ -1,8 +1,13 @@
 # Learn FastAPI
-This repository is my exprimental one to learn fastAPI and keep track of my learning.
+Ce repository est mon repository expérimental pour apprendre fastAPI et garder une trace de cet apprentissage
 
-# Learning notes
-- To launch uvicorn
+# Notes d'apprentissage
+
+## Comment lancer uvicorn
 > uvicorn <filename_wihoutextension>:<variable_fastapi> --reload
 example:
 > uvicorn myapi:app --reload
+
+## Fastapi auto-documentation
+Fastapi auto-génère une documentation de l'api qui est construite: http://127.0.0.1:8000/docs
+Il est également possible de tester l'api directement depuis cette URL.
