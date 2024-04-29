@@ -65,8 +65,8 @@ def get-student(id: int):
 
 
 ## Ressources:
-[x}[Youtube - FastAPI Course for beginners - 1h04](https://youtu.be/tLKKmouUams?si=b8Hgf7fqUbhE0XbF)
-- [Youtube - Python API Development - 19h00](https://youtu.be/0sOvCWFmrtA?si=EbO0u7TVASEVxduf)
-- [Youtube - Microservice with fastAPI - 1h30](https://youtu.be/Cy9fAvsXGZA?si=fBJ85JWpbtO6bjFJ)
-- [Youtube - Event Driven Architecture with React and FastAPI - 1h40](https://youtu.be/NVvIpqmf_Xc?si=1a6kpALnPVv13j5a)
+- [x] [Youtube - FastAPI Course for beginners - 1h04](https://youtu.be/tLKKmouUams?si=b8Hgf7fqUbhE0XbF)
+- [ ] [Youtube - Python API Development - 19h00](https://youtu.be/0sOvCWFmrtA?si=EbO0u7TVASEVxduf)
+- [ ] [Youtube - Microservice with fastAPI - 1h30](https://youtu.be/Cy9fAvsXGZA?si=fBJ85JWpbtO6bjFJ)
+- [ ] [Youtube - Event Driven Architecture with React and FastAPI - 1h40](https://youtu.be/NVvIpqmf_Xc?si=1a6kpALnPVv13j5a)
 
